@@ -1,0 +1,435 @@
+ <!DOCTYPE html>
+<html>
+    <head>
+        <title>Muzox- Home</title>
+        <link rel ="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="icon" href="images/music.png">
+    </head>
+
+    <body>
+        <div id = "main">
+
+            <!-- ######## Navbar begins #########-->
+            <div id = "navbar">
+                <div id="logo"style="cursor: pointer;" onclick="window.location.href='index.html'">
+                    <i class="material-icons">album</i>
+                </div>
+                <div id = "text_logo">
+                    <span id="logotext1">MuzOX</span><br>
+                    <span id="logotext2">Player</span>
+                </div>
+                <div id="favourites" style = "cursor: pointer;" >Favourites</div>
+                <div id="searchbar">
+                    &nbsp;&nbsp;<span class="material-icons" style="padding-top: 3px;">search</span><input type ="text" placeholder="Search..">
+                    <span class="material-icons" style="padding-top: 3px;">mic</span>
+                </div>
+                <span id="notification" style="padding-left: 20px;color: white;margin-top: 57px;"><i class="material-icons">notifications</i></span>
+                <div id="profile-picture">
+                    <img src = "images/profile.jpg" height="90px"width="90px" style="margin-left: 15px;border-radius: 50%;margin-top: 25px;">
+                </div>
+            </div>
+            <!-- ######### Navbar ends ######## -->
+            
+            <!-- ####### Main content div begins ####### -->
+
+            <div id ="main-content-div">
+                <!-- Left side of main content div -->
+                <div id="main-content-left">
+                    <div id="carousel">
+                        <div id="carousel-image-1" class = "inlineclass ">
+                            <img src = "images/carousel/localtrain.jpg">
+                        </div>
+                        <div id="carousel-image-2"class = "inlineclass">
+                            <img src="images/carousel/rockyear.jpg">
+                        </div>
+                        <div id="carousel-image-3"class = "inlineclass">
+                            <img src = "images/carousel/porcupinetree.jpg">
+                        </div>
+                    </div>
+                   
+                    <div id = "latest-release">
+                       <div id="lr-heading" style = "width:100%;"><span id = "lr-heading"style = "display:block;font-weight: bold;font-family: sans-serif;font-size: 23px;color:white">Latest releases</span></div> 
+                       <br><br>
+                        <div id="lr-item-1"class = "lr-item itsflex">
+                        <div class="lr-item-image">
+                            <img src="images/arts/amogh.jpg" alt="AMOGH" >
+                        </div>
+                        <div class = "lr-item-name">
+                            <span class ="lr-item-song">Hysteria</span><br><br>
+                            <span class ="lr-item-artrist">Amogh Symphony</span>
+    
+                        </div>
+                        <div class = "lr-item-time">
+                            <span class = "lr-item-options" ><a>...</a>
+                                <div id ="lr-dropdown-1" class = "lr-dropdown">
+                                    <div id ="lr-dd-play" class = "lr-dd-item"><span class="material-icons">
+                                        play_arrow
+                                        </span>&nbsp;
+                                        Play Now</div>
+                                    <div id ="lr-dd-atq" class = "lr-dd-item">
+                                        <span class="material-icons">
+                                            playlist_add
+                                            </span>&nbsp;
+                                        Add to Queue</div>
+                                    <div id ="lr-dd-atf" class = "lr-dd-item">
+                                        <span class="material-icons">
+                                            favorite
+                                            </span>&nbsp;
+                                        Add to Favourites</div>
+                                    <div id ="lr-dd-getinfo" class = "lr-dd-item">
+                                        <span class="material-icons">
+                                            info
+                                            </span>&nbsp;
+                                        Get Info</div>
+                                </div>
+                            </span><br>
+                            <span class = "lr-item-duration">4.37</span>
+                            
+                        </div>
+                        </div>
+                        <div id="lr-item-2"class = "lr-item itsflex">
+                            <div class="lr-item-image">
+                                <img src="images/arts/greenday.png" alt="GD" >
+                            </div>
+                            <div class = "lr-item-name">
+                                <span class ="lr-item-song">American idiot</span><br><br>
+                                <span class ="lr-item-artrist">Green Day</span>
+        
+                            </div>
+                            <div class = "lr-item-time">
+                                <span class = "lr-item-options" ><a>...</a>
+                                    <div id ="lr-dropdown-2" class = "lr-dropdown">
+                                        <div id ="lr-dd-play" class = "lr-dd-item"><span class="material-icons">
+                                            play_arrow
+                                            </span>&nbsp;
+                                            Play Now</div>
+                                        <div id ="lr-dd-atq" class = "lr-dd-item">
+                                            <span class="material-icons">
+                                                playlist_add
+                                                </span>&nbsp;
+                                            Add to Queue</div>
+                                        <div id ="lr-dd-atf" class = "lr-dd-item">
+                                            <span class="material-icons">
+                                                favorite
+                                                </span>&nbsp;
+                                            Add to Favourites</div>
+                                        <div id ="lr-dd-getinfo" class = "lr-dd-item">
+                                            <span class="material-icons">
+                                                info
+                                                </span>&nbsp;
+                                            Get Info</div>
+                                    </div>
+                                </span><br>
+                                <span class = "lr-item-duration">4.01</span>
+                            </div>
+                        </div>
+                        <div id="lr-item-3"class = "lr-item itsflex">
+                            <div class="lr-item-image">
+                                <img src="images/arts/pinkf.jpg" alt="Pink Floyd" >
+                            </div>
+                            <div class = "lr-item-name">
+                                <span class ="lr-item-song">High Hopes</span><br><br>
+                                <span class ="lr-item-artrist">Pink Floyd</span>
+        
+                            </div>
+                            <div class = "lr-item-time">
+                                <span class = "lr-item-options" ><a>...</a>
+                                    <div id ="lr-dropdown-3" class = "lr-dropdown">
+                                        <div id ="lr-dd-play" class = "lr-dd-item"><span class="material-icons">
+                                            play_arrow
+                                            </span>&nbsp;
+                                            Play Now</div>
+                                        <div id ="lr-dd-atq" class = "lr-dd-item">
+                                            <span class="material-icons">
+                                                playlist_add
+                                                </span>&nbsp;
+                                            Add to Queue</div>
+                                        <div id ="lr-dd-atf" class = "lr-dd-item">
+                                            <span class="material-icons">
+                                                favorite
+                                                </span>&nbsp;
+                                            Add to Favourites</div>
+                                        <div id ="lr-dd-getinfo" class = "lr-dd-item">
+                                            <span class="material-icons">
+                                                info
+                                                </span>&nbsp;
+                                            Get Info</div>
+                                    </div>
+                                </span><br>
+                                <span class = "lr-item-duration">7.47</span>
+                            </div>
+    
+                        </div>
+                        <div id="lr-item-4"class = "lr-item itsflex">
+                            <div class="lr-item-image">
+                                <img src="images/arts/pt.jpg" alt="porcupinetree" >
+                            </div>
+                            <div class = "lr-item-name">
+                                <span class ="lr-item-song">Sound Of Muzak</span><br><br>
+                                <span class ="lr-item-artrist">Porcupine Tree</span>
+        
+                            </div>
+                            <div class = "lr-item-time">
+                                <span class = "lr-item-options" ><a>...</a>
+                                    <div id ="lr-dropdown-4" class = "lr-dropdown">
+                                        <div id ="lr-dd-play" class = "lr-dd-item"><span class="material-icons">
+                                            play_arrow
+                                            </span>&nbsp;
+                                            Play Now</div>
+                                        <div id ="lr-dd-atq" class = "lr-dd-item">
+                                            <span class="material-icons">
+                                                playlist_add
+                                                </span>&nbsp;
+                                            Add to Queue</div>
+                                        <div id ="lr-dd-atf" class = "lr-dd-item">
+                                            <span class="material-icons">
+                                                favorite
+                                                </span>&nbsp;
+                                            Add to Favourites</div>
+                                        <div id ="lr-dd-getinfo" class = "lr-dd-item">
+                                            <span class="material-icons">
+                                                info
+                                                </span>&nbsp;
+                                            Get Info</div>
+                                    </div>
+                                </span><br>
+                                <span class = "lr-item-duration">6.37</span>
+                            </div>
+    
+                        </div>
+                    </div>
+                    <br><br>
+                    <div id="popular-artist">
+                        <div style = "width:100%;"><span style = "display:block;font-weight: bold;font-family: sans-serif;font-size: 23px;color:white">Popular Artists</span></div> 
+    
+                        <div class = "pa-item">
+                            <div class = "pa-item-image">
+                                <img src="images/artists/ed.jpeg"onclick="window.location.href='playlist.html'">
+                            </div>
+                            <div class="pa-item-text">
+                                Ed Sheeran
+                            </div>
+                        </div>
+                        <div class = "pa-item">
+                            <div class = "pa-item-image">
+                                <img src="images/artists/billie.jpeg" onclick="window.location.href='playlist.html'">
+                            </div>
+                            <div class="pa-item-text">
+                                Billie Eilish
+                            </div>
+                        </div>
+                        <div class = "pa-item">
+                            <div class = "pa-item-image">
+                                <img src="images/artists/coldplay.jpg" onclick="window.location.href='playlist.html'">
+                            </div>
+                            <div class="pa-item-text">
+                                Coldplay
+                            </div>
+                        </div>
+                        <div class = "pa-item">
+                            <div class = "pa-item-image">
+                                <img src="images/artists/indianocean.jpeg" onclick="window.location.href='playlist.html'">
+                            </div>
+                            <div class="pa-item-text">
+                                Indian Ocean
+                            </div>
+                        </div>
+                        <div class = "pa-item">
+                            <div class = "pa-item-image">
+                                <img src="images/artists/weeknd.jpg" onclick="window.location.href='playlist.html'">
+                            </div>
+                            <div class="pa-item-text">
+                                Weeknd
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div id = "moods">
+                        <div class = "mood-item relativeclass">
+                            <img src = "images/moods/stations.png" style="border-right:1px solid #e2e2e2">
+                        </div>
+                        <div class = "mood-item relativeclass">
+                            <img src = "images/moods/chill.jpg">
+                            <div id = "mood-item-text" style="top:39px;left:22px">Chill</div>
+                        </div>
+                        <div class = "mood-item relativeclass">
+                            <img src = "images/moods/workout.jpeg">
+                            <div id = "mood-item-text" style="font-size: 18px;top:39px;left:4px">WORKOUT</div>
+                        </div>
+                        <div class = "mood-item relativeclass">
+                            <img src = "images/moods/love.jpeg">
+                            <div id = "mood-item-text" style="font-size: 18px;top:39px;left:25px">LOVE</div>
+                        </div>
+                        <div class = "mood-item relativeclass">
+                            <img src = "images/moods/pop.jpeg">
+                            <div id = "mood-item-text" style="font-size: 18px;top:39px;left:30px">POP</div>
+                        </div>
+                        <div class = "mood-item relativeclass">
+                            <img src = "images/moods/retro.png">
+                            <div id = "mood-item-text" style="font-size: 18px;top:39px;left:20px">RETRO</div>
+                        </div>
+                        <div class = "mood-item relativeclass">
+                            <img src = "images/moods/rock.jpg">
+                            <div id = "mood-item-text" style="font-size: 18px;top:39px;left:25px">ROCK</div>
+                        </div>
+    
+                    </div>
+                    <center><div id = "hidden-moods2-head" style="color:white; font-family: fantasy;"><h2>What's your mood?</h2></div></center>
+                    <div id = "moods2">
+                        <div class = "mood2-item relativeclass">
+                            <img src = "images/moods/party.jpeg">
+                            <div id = "mood-item-text" style="top:65px;left:90px">Party</div>
+                        </div>
+                        <div class = "mood2-item relativeclass">
+                            <img src = "images/moods/electronic.jpg">
+                            <div id = "mood-item-text" style="top:65px;left:70px">Electronic</div>
+                        </div>
+                        <div class = "mood2-item relativeclass">
+                            <img src = "images/moods/roadtrip.jpg">
+                            <div id = "mood-item-text" style="top:65px;left:70px">Road Trip</div>
+                        </div>
+                    </div>
+    
+                </div>
+
+                <!-- Left side of main content div END-->
+
+                <!-- Aside section (Queue) starts-->
+                <div id = "aside-section">
+                    <div id="queue">
+                        <span id ="queue-heading" style = "float: left;">Upcoming</span>
+                        <span class="material-icons" id = "aside-dd" style="color:#4FC8AE;float: right;font-size:30px">arrow_drop_down</span>
+                        
+                    </div>
+                    <div id="queue-content" style="display: flex;flex-direction: column;">
+                    <div class = "queue-item" >
+                        <div class = "q-no">01</div>
+                        <div class = "q-img"><img src="images/arts/billieeiw.png"></div>
+                        <div class = "q-song-artist">
+                            <span><b>Everything i wanted</b></span><br>
+                            <span>Billie Eilish</span>
+                        </div>
+                        <div class="material-icons " style="font-size: 17px;padding: 4px;color: white;">remove_circle_outline</div>
+                    </div>
+                    <div class = "queue-item" >
+                        <div class = "q-no">02</div>
+                        <div class = "q-img"><img src="images/arts/pt.jpg"></div>
+                        <div class = "q-song-artist">
+                            <span><b>Trains</b></span><br>
+                            <span>Porcupine Tree</span>
+                        </div>
+                        <div class="material-icons " style="font-size: 17px;padding: 4px;color: white;">remove_circle_outline</div>
+                    </div>
+                    <div class = "queue-item" >
+                        <div class = "q-no">03</div>
+                        <div class = "q-img"><img src="images/artists/weeknd.jpg"></div>
+                        <div class = "q-song-artist">
+                            <span><b>Hills</b></span><br>
+                            <span>The Weeknd</span>
+                        </div>
+                        <div class="material-icons " style="font-size: 17px;padding: 4px;color: white;">remove_circle_outline</div>
+                    </div>
+                    <div class = "queue-item" >
+                        <div class = "q-no">04</div>
+                        <div class = "q-img"><img src="images/arts/cigsex.jpg"></div>
+                        <div class = "q-song-artist">
+                            <span><b>Apocalypse</b></span><br>
+                            <span>Cigarettes After Sex</span>
+                        </div>
+                        <div class="material-icons " style="font-size: 17px;padding: 4px;color: white;">remove_circle_outline</div>
+                    </div>
+                    <div class = "queue-item" >
+                        <div class = "q-no">05</div>
+                        <div class = "q-img"><img src="images/arts/xxxte.jpg"></div>
+                        <div class = "q-song-artist">
+                            <span><b>Moonlight</b></span><br>
+                            <span>xxxtencation</span>
+                        </div>
+                        <div class="material-icons " style="font-size: 17px;padding: 4px;color: white;">remove_circle_outline</div>
+                    </div>
+                    <div class = "queue-item" >
+                        <div class = "q-no">06</div>
+                        <div class = "q-img"><img src="images/arts/ledzep.jpg"></div>
+                        <div class = "q-song-artist">
+                            <span><b>Stairway to Heaven</b></span><br>
+                            <span>Led Zeppalin</span>
+                        </div>
+                        <div class="material-icons " style="font-size: 17px;padding: 4px;color: white;">remove_circle_outline</div>
+                    </div>
+                    <div class = "queue-item" >
+                        <div class = "q-no">07</div>
+                        <div class = "q-img"><img src="images/arts/hotel.jpg"></div>
+                        <div class = "q-song-artist">
+                            <span><b>Hotel California</b></span><br>
+                            <span>Eagles</span>
+                        </div>
+                        <div class="material-icons " style="font-size: 17px;padding: 4px;color: white;">remove_circle_outline</div>
+                    </div>
+                    <div class = "queue-item" >
+                        <div class = "q-no">08</div>
+                        <div class = "q-img"><img src="images/arts/suspeneda.jpg"></div>
+                        <div class = "q-song-artist">
+                            <span><b>Glasgow kiss</b></span><br>
+                            <span>John Petrucci</span>
+                        </div>
+                        <div class="material-icons " style="font-size: 17px;padding: 4px;color: white;">remove_circle_outline</div>
+                    </div>
+                    </div>
+                </div>
+                <!-- Aside section (Queue) ENDS-->
+
+
+            </div>
+            
+            <!-- ####### Main content div ends ####### -->
+
+            <br><br><br><br><br>
+            <!-- Sticky Player Begins -->
+            <div id="fixed_player">
+                <div id ="now_playing_artist">
+                    <div id="np_artist_details">
+                        <img src = "images/now_playing_image.jpg" style="height: 50px;width: 50px; margin-top: 10px;">
+                    </div>
+                    <div id ="np_song_details" style="margin-left:6px;">
+                        <span id="cur_pla_song" ><marquee>Wonderwall By Oasis</marquee></span>
+                        <span id ="cur_pla_art">Oasis</span>
+                    </div>
+                    <div id ="np_song_action">
+                        <i class="material-icons">favorite_border</i>
+                        &nbsp;
+                        <i class="material-icons">block</i>
+                    </div>
+                </div>
+                <div id = "now_playing_control1">
+                    <div id="playcontrols">
+                        <i class="material-icons"style="font-size:20px;" >shuffle</i>
+                        <i class="material-icons" style="font-size:24px;">skip_previous</i>
+                        <i class="material-icons" style="font-size: 40px;">play_circle_outline</i>
+                        <i class="material-icons"  style = "font-size: 24px;">skip_next</i>
+                        <i class="material-icons"style = "font-size: 20px;">repeat</i>
+
+                    </div>
+                    <div id = "progress_bar">
+                      <span id="current_time" style="font-family:fantasy;font-size: 12px;color: #e3e3e3;padding-bottom: 2px;">2:25</span>  
+                      <input type="range"> 
+                      <span id = "total_time"style="font-family:fantasy;font-size: 12px;color: #e3e3e3;">4:44</span>
+                    </div>
+                </div>
+                <div id = "now_playing_control2">
+                    <i class="material-icons">queue_music</i>
+                    <i class="material-icons">&#xe1b1;</i>
+                    <i class="material-icons">volume_up</i>
+                    <input type="range">
+                    <i class="material-icons" style ="transform: rotate(45deg);">swap_vert</i>
+
+                </div>
+            
+            </div>
+            <!-- Sticky player ends -->
+
+
+        </div>
+        
+    </body>
+</html>

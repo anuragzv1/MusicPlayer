@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Muzox - Playlist</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/playlist.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" href="images/music.png">
+</head>
+
+<body>
+    <div id="main">
+        <div id="navbar">
+            <div id="logo" style="cursor: pointer;" onclick="window.location.href='index.html'">
+                <i class="material-icons">album</i>
+            </div>
+            <div id="text_logo" >
+                <span id="logotext1">MuzOX</span><br>
+                <span id="logotext2">Player</span>
+            </div>
+            <div id="favourites">Favourites</div>
+            <div id="searchbar">
+                &nbsp;&nbsp;<span class="material-icons" style="padding-top: 3px;">search</span><input type="text"
+                    placeholder="Search..">
+                <span class="material-icons" style="padding-top: 3px;">mic</span>
+            </div>
+            <span id="notification" style="padding-left: 20px;color: white;margin-top: 57px;"><i
+                    class="material-icons">notifications</i></span>
+            <div id="profile-picture">
+                <img src="images/profile.jpg" height="90px" width="90px"
+                    style="margin-left: 15px;border-radius: 50%;margin-top: 25px;">
+            </div>
+        </div>
+
+        <div id="main-content-div">
+            <div id="main-content-left">
+                <div id="artist-info">
+                    <div id="artist-image"></div>
+                    <div id="artist-description">
+                        <span id="artist-name">Indian Ocean</span><br>
+                        <span id="artist-country">( Indian Band )</span><br>
+                        <span id="artist-desc">Indian Ocean is an Indian rock band formed in New Delhi in 1990,
+                            who are widely recognized as the pioneers of the fusion rock genre in India.</span><br><br>
+                        <button id="artist-follow-button">Follow<br>
+                            <!-- <span id = "button-followers">521 following</span> -->
+                        </button>
+                        <button id="artist-play-button">Play all</button><br>
+                        <span id="no-of-tracks">250 Tracks | 128 Albums</span>
+                    </div>
+                </div>
+
+                <div id="playlist">
+                    <div class="playlist-item">
+                        <span class="playlist-item-image"><img src="images/artists/indianocean.jpeg"></span>
+                        <span class="playlist-item-desc">Bandeh</span>
+                        <span class="playlist-icons">
+                            <span class="material-icons">
+                                favorite_border
+                            </span>
+                            &nbsp;
+                            <span class="material-icons">
+                                add
+                            </span>
+                        </span>
+                    </div>
+                    <div class="playlist-item">
+                        <span class="playlist-item-image"><img src="images/artists/indianocean.jpeg"></span>
+                        <span class="playlist-item-desc">Khajuraho</span>
+                        <span class="playlist-icons">
+                            <span class="material-icons">
+                                favorite_border
+                            </span>
+                            &nbsp;
+                            <span class="material-icons">
+                                add
+                            </span>
+                        </span>
+                    </div>
+                    <div class="playlist-item">
+                        <span class="playlist-item-image"><img src="images/artists/indianocean.jpeg"></span>
+                        <span class="playlist-item-desc">Roday</span>
+                        <span class="playlist-icons">
+                            <span class="material-icons">
+                                favorite_border
+                            </span>
+                            &nbsp;
+                            <span class="material-icons">
+                                add
+                            </span>
+                        </span>
+                    </div>
+                    <div class="playlist-item">
+                        <span class="playlist-item-image"><img src="images/artists/indianocean.jpeg"></span>
+                        <span class="playlist-item-desc">Ma Rewa</span>
+                        <span class="playlist-icons">
+                            <span class="material-icons">
+                                favorite_border
+                            </span>
+                            &nbsp;
+                            <span class="material-icons">
+                                add
+                            </span>
+                        </span>
+                    </div>
+                    <div class="playlist-item">
+                        <span class="playlist-item-image"><img src="images/artists/indianocean.jpeg"></span>
+                        <span class="playlist-item-desc">Bhor</span>
+                        <span class="playlist-icons">
+                            <span class="material-icons">
+                                favorite_border
+                            </span>
+                            &nbsp;
+                            <span class="material-icons">
+                                add
+                            </span>
+                        </span>
+                    </div>
+                    <div class="playlist-item">
+                        <span class="playlist-item-image"><img src="images/artists/indianocean.jpeg"></span>
+                        <span class="playlist-item-desc">Shunya</span>
+                        <span class="playlist-icons">
+                            <span class="material-icons">
+                                favorite_border
+                            </span>
+                            &nbsp;
+                            <span class="material-icons">
+                                add
+                            </span>
+                        </span>
+                    </div>
+                        <br><br><br><br><br<br><br><br><br><br>
+                </div>
+            </div>
+
+            <div id="aside-section" style="overflow:hidden;margin-left:25px;height: auto;">
+                <div id="similar-artists">
+                    <span id="sa-heading">Similar Artist</span>
+                    <br><br>
+
+                    <div class="sa-item">
+                        <div class="sa-number">01</div>
+                        <div class="sa-image"><img src="images/arts/amogh.jpg"></div>
+                        <div class="sa-name"><span id="sa-name-actual">AMOGH</span><br>
+                            <span class="sa-name-type">Trance</span>
+                        </div>
+                        <div class="sa-controls">
+                            <span id="sa-controls-dots">...</span><br>
+                            <span id="sa-controls-time">6:44</span>
+                        </div>
+                    </div>
+                    <div class="sa-item">
+                        <div class="sa-number">02</div>
+                        <div class="sa-image"><img src="images/arts/suspeneda.jpg"></div>
+                        <div class="sa-name"><span id="sa-name-actual">JOHN PETRUCCI</span><br>
+                            <span class="sa-name-type">Instrumental</span>
+                        </div>
+                        <div class="sa-controls">
+                            <span id="sa-controls-dots">...</span><br>
+                            <span id="sa-controls-time">3:44</span>
+                        </div>
+                    </div>
+                    <div class="sa-item">
+                        <div class="sa-number">03</div>
+                        <div class="sa-image"><img src="images/arts/pinkf.jpg"></div>
+                        <div class="sa-name"><span id="sa-name-actual">Pink Floyd</span><br>
+                            <span class="sa-name-type">Alternative</span>
+                        </div>
+                        <div class="sa-controls">
+                            <span id="sa-controls-dots">...</span><br>
+                            <span id="sa-controls-time">7:47</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="upcoming">
+                    <span id="upcoming-header">Recently Played</span><br>
+                    <div id="queue-content" style="display: flex;flex-direction: column;">
+                        <div class="queue-item">
+                            <div class="q-no">01</div>
+                            <div class="q-img"><img src="images/arts/billieeiw.png"></div>
+                            <div class="q-song-artist">
+                                <span><b>Everything i wanted</b></span><br>
+                                <span>Billie Eilish</span>
+                            </div>
+                            <div class="material-icons " style="font-size: 17px;padding: 4px;color: white;">
+                                remove_circle_outline</div>
+                        </div>
+                        <div class="queue-item">
+                            <div class="q-no">02</div>
+                            <div class="q-img"><img src="images/arts/pt.jpg"></div>
+                            <div class="q-song-artist">
+                                <span><b>Trains</b></span><br>
+                                <span>Porcupine Tree</span>
+                            </div>
+                            <div class="material-icons " style="font-size: 17px;padding: 4px;color: white;">
+                                remove_circle_outline</div>
+                        </div>
+                        <div class="queue-item">
+                            <div class="q-no">03</div>
+                            <div class="q-img"><img src="images/artists/weeknd.jpg"></div>
+                            <div class="q-song-artist">
+                                <span><b>Hills</b></span><br>
+                                <span>The Weeknd</span>
+                            </div>
+                            <div class="material-icons " style="font-size: 17px;padding: 4px;color: white;">
+                                remove_circle_outline</div>
+                        </div>
+                        <div class="queue-item">
+                            <div class="q-no">04</div>
+                            <div class="q-img"><img src="images/arts/cigsex.jpg"></div>
+                            <div class="q-song-artist">
+                                <span><b>Apocalypse</b></span><br>
+                                <span>Cigarettes After Sex</span>
+                            </div>
+                            <div class="material-icons " style="font-size: 17px;padding: 4px;color: white;">
+                                remove_circle_outline</div>
+                        </div>
+                        <div class="queue-item">
+                            <div class="q-no">05</div>
+                            <div class="q-img"><img src="images/arts/xxxte.jpg"></div>
+                            <div class="q-song-artist">
+                                <span><b>Moonlight</b></span><br>
+                                <span>xxxtencation</span>
+                            </div>
+                            <div class="material-icons " style="font-size: 17px;padding: 4px;color: white;">
+                                remove_circle_outline</div>
+                        </div>
+                        <div class="queue-item">
+                            <div class="q-no">06</div>
+                            <div class="q-img"><img src="images/arts/ledzep.jpg"></div>
+                            <div class="q-song-artist">
+                                <span><b>Stairway to Heaven</b></span><br>
+                                <span>Led Zeppalin</span>
+                            </div>
+                            <div class="material-icons " style="font-size: 17px;padding: 4px;color: white;">
+                                remove_circle_outline</div>
+                        </div>
+                        <div class="queue-item">
+                            <div class="q-no">07</div>
+                            <div class="q-img"><img src="images/arts/hotel.jpg"></div>
+                            <div class="q-song-artist">
+                                <span><b>Hotel California</b></span><br>
+                                <span>Eagles</span>
+                            </div>
+                            <div class="material-icons " style="font-size: 17px;padding: 4px;color: white;">
+                                remove_circle_outline</div>
+                        </div>
+                        <div class="queue-item">
+                            <div class="q-no">08</div>
+                            <div class="q-img"><img src="images/arts/suspeneda.jpg"></div>
+                            <div class="q-song-artist">
+                                <span><b>Glasgow kiss</b></span><br>
+                                <span>John Petrucci</span>
+                            </div>
+                            <div class="material-icons " style="font-size: 17px;padding: 4px;color: white;">
+                                remove_circle_outline</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    <div id="fixed_player">
+        <div id="now_playing_artist">
+            <div id="np_artist_details">
+                <img src="images/now_playing_image.jpg" style="height: 50px;width: 50px; margin-top: 10px;">
+            </div>
+            <div id="np_song_details" style="margin-left:6px;">
+                <span id="cur_pla_song">
+                    <marquee>Wonderwall By Oasis</marquee>
+                </span>
+                <span id="cur_pla_art">Oasis</span>
+            </div>
+            <div id="np_song_action">
+                <i class="material-icons">favorite_border</i>
+                &nbsp;
+                <i class="material-icons">block</i>
+            </div>
+        </div>
+        <div id="now_playing_control1">
+            <div id="playcontrols">
+                <i class="material-icons" style="font-size:20px;">shuffle</i>
+                <i class="material-icons" style="font-size:24px;">skip_previous</i>
+                <i class="material-icons" style="font-size: 40px;">play_circle_outline</i>
+                <i class="material-icons" style="font-size: 24px;">skip_next</i>
+                <i class="material-icons" style="font-size: 20px;">repeat</i>
+
+            </div>
+            <div id="progress_bar">
+                <span id="current_time"
+                    style="font-family:fantasy;font-size: 12px;color: #e3e3e3;padding-bottom: 2px;">2:25</span>
+                <input type="range">
+                <span id="total_time" style="font-family:fantasy;font-size: 12px;color: #e3e3e3;">4:44</span>
+            </div>
+        </div>
+        <div id="now_playing_control2">
+            <i class="material-icons hidewhensmall">queue_music</i>
+            <i class="material-icons hidewhensmall">&#xe1b1;</i>
+            <i class="material-icons hidewhensmall">volume_up</i>
+            <input type="range">
+            <i class="material-icons hidewhensmall" style="transform: rotate(45deg);">swap_vert</i>
+
+        </div>
+
+    </div>
+    </div>
+
+
+
+</body>
+
+</html>
